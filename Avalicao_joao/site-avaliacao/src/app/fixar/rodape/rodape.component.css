@@ -1,0 +1,45 @@
+.footer {
+    height: 15vh;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    overflow: hidden;
+    position: static;
+    top: 100%;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    margin: 3px 5px 0 0;
+    filter: invert(100%);
+}
+
+.cont a {
+    font-size: 2vw;
+}
+
+h1 {
+    color: beige;
+}
+
+p {
+    color: beige;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+i {
+    font-size: 35px;
+}
+
+a {
+    padding: 10px;
+    color: beige;
+    font-size: 25px;
+} 

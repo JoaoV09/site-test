@@ -1,0 +1,53 @@
+<div class="conteiner">
+    <div class="cont">
+        <div class="ppp">
+            <img src="../../../assets/logo.png" class ="logo">
+            <h1 class="text-center">Estudio Eternal</h1>
+        </div>
+        <p class="text-center">Transforme sua pele em arte eterna no Estúdio Eternal: onde tatuagens se tornam histórias vivas!</p>
+        <!-- <img src="../../../assets/tatto.jpeg" class="banner"> -->
+    </div>
+    <div class="container">
+        <h2 class="text-center">Tattos</h2>
+        <div class="conteudo">
+            <div class="card-img">
+                <a routerLink="contato" ><img src="../../../assets/borboletA.jpg" class="ex"></a>
+            </div>
+
+            <div class="card-img">
+                <a routerLink="contato" ><img src="../../../assets/tatto1.png" class="ex"></a>
+            </div>
+
+            <div class="card-img">
+                <a routerLink="contato" ><img src="../../../assets/tatuagens-mascaras-hannya .jpg" class="ex"></a>
+            </div>
+
+            <div class="card-img">
+                <a routerLink="contato" ><img src="../../../assets/tatoo3.jpg" class="ex"></a>
+            </div>
+
+            <div class="card-img">
+                <a routerLink="contato" ><img src="../../../assets/1.jpg" class="ex"></a>
+            </div>
+
+            <div class="card-img">
+                <a routerLink="contato" ><img src="../../../assets/cobra.jpg" class="ex"></a>
+            </div>
+
+        </div>
+        <h2 class="text-center">Loja</h2>
+            <div class="row">
+                <div class="col-lg-4" *ngFor="let item of itens">
+                    <div class="card-itens">
+                        <img src="{{item.varImg}}" class="ex">
+                        <div class="test">
+                            <h1 class="text-center">{{item.varNome}}</h1>
+                            <p class="text-center">{{item.varDescricao}}</p>
+                        </div>
+                        <p class="preco">{{item.varValor| currency:"BRL"}}</p>
+                        <button class="btn">Comprar</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>

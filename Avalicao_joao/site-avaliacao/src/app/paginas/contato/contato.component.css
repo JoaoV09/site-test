@@ -1,0 +1,28 @@
+.conteudo {
+    height: 75vh;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-contato {
+    width: 50vw;
+    height: auto;
+    padding: 2vw;
+    background-color: black;
+    border-radius: 15px;
+}
+
+label {
+    color: beige;
+}
+
+.card-contato h1 {
+    color: beige;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: beige;
+}

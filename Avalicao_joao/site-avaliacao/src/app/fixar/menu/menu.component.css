@@ -1,0 +1,24 @@
+nav, .container-fluid {
+    height: 10vh;
+    background-color: black;
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+    margin: 3px 5px 0 0;
+    filter: invert(100%);
+}
+
+a {
+    color: beige;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+a:hover,a::after, a::before, a:focus {
+    color: bisque;
+    transition: all 0.5s;
+}
